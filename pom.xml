@@ -18,8 +18,7 @@
   </dependencies>
 <repository>
   <id>MavenDemo</id>
-  <url>https://pkgs.dev.azure.com/
-DevOpsTrainingFY24/JavademoPipeline/_packaging/newfeed1/maven/v1</url>
+  <url>https://pkgs.dev.azure.com/DevOpsTrainingFY24/JavademoPipeline/_packaging/newfeed1/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
