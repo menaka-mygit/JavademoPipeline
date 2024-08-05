@@ -16,16 +16,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<repository>
-  <id>MavenDemo</id>
-  <url>https://pkgs.dev.azure.com/DevOpsTrainingFY24/JavademoPipeline/_packaging/newfeed1/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
   <build>
     <finalName>helloworld</finalName>
     <plugins>
