@@ -29,6 +29,4 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-  - download: current
-    artifact : drop
-    patterns : '**/*.zip'
+
