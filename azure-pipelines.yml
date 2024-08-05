@@ -20,7 +20,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: CopyFiles@2
+   - task: CopyFiles@2
   inputs:
     Contents: '**'
     TargetFolder: '$(build.artifactstagingdirectory)'
@@ -28,11 +28,7 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
-    publishLocation: 'Container'
-steps:
-  - download: current
+    publishLocation: 'Container'  
+      - download: current
     artifact : drop
-    patterns :|
-     **/*.js
-     **/*.zip
-     
+    patterns : '**/*.zip'
